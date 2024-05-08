@@ -1,8 +1,27 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: 313131;
+  font-family:Montserrat;
+}
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Logo.png");
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url("images/Logo.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    width: 1000px;
+    margin: 100px;
+    margin-left: 250px;
+    line-height: 75px;
+    font-size: 30px;
   }
