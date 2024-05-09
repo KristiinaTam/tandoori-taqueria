@@ -1,9 +1,29 @@
 body, html {
   height: 100%;
   margin: 0;
-  background-color: 313131;
+  background-color:313131;
   font-family:Montserrat;
+  font-size: 20px;
 }
+
+/*fonts*/
+
+.h1 {
+
+}
+.h2 {
+  font-family: allura;
+  font-size: 60px;
+}
+
+.h3 {
+
+  font-family: montserrat;
+  font-size: 40px;
+  font-style: bold;
+  
+}
+
 
 /*nav*/
 .navigation {
@@ -36,7 +56,7 @@ body, html {
 
 /* header*/ 
 .hero-image {
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url("images/Logo.png");
+    background-image: url("images/Logo.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,20 +74,44 @@ body, html {
     width: 1000px;
     margin: 100px;
     margin-left: 250px;
+    margin-right: 150px;
     line-height: 75px;
     font-size: 30px;
   }
-    /* Our Philosophy*/ 
-    .flex-container2 {
+
+    /* experiance*/ 
+    .flex-container-2 {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .flex-container-2 .left-side {
+      width: 35%;
+      margin-left: 250px;
+      flex-direction: row;
+      image-orientation: inherit;
+  }
+
+  .flex-container-2 .right-side {
+      width: 65%;
+      height: 640px;
+      margin-right: 150px;
+      margin-left: 40px;
+      
+  }
+  .flex-container-2 .right-side img {
+    width: 100%;
+    height: 640px;
+}
+    
+  .flex-container-2 .icon-section {
+      display: flex;
+      flex-direction: column;
+  
+  }
+      /*
+  .flex-container-2 .icon {
       display: flex;
       flex-direction: row;
-    }
-    
-    .flex-container2 > div {
-      width: 1000px;
-      margin: 100px;
-      margin-left: 250px;
-      line-height: 75px;
-      font-size: 30px;
-    }
-  
+      align-items: center;
+  }
