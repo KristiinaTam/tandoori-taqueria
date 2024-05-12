@@ -50,7 +50,17 @@
   width: 1728px;
   height: 325px;
 }
-.medium-length-hero {
+
+.hero-image {
+  margin-left: 250px;
+  margin-right: 150px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+/*.medium-length-hero {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -125,6 +135,7 @@
   flex-shrink: 0;
   max-width: 115%;
 }
+
 .logo-section {
   width: 1523px;
   overflow: hidden;
@@ -136,7 +147,7 @@
   font-size: var(--font-size-121xl);
   color: var(--text-alternate);
   font-family: var(--font-allura);
-}
+}*/
 .heading {
   margin: 0;
   align-self: stretch;
@@ -1999,15 +2010,15 @@
     height: auto;
     min-height: 1013.1999999999998;
   }
-  .macbook-pro-16-1 {
+  .page-layout {
     height: auto;
     min-height: 7278;
   }
 }
 @media screen and (max-width: 1100px) {
-  .logo-section {
+  /*.logo-section {
     gap: var(--gap-21xl);
-  }
+  }*/
   .column1 {
     min-width: 100%;
   }
@@ -2029,11 +2040,11 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .medium-length-hero,
+ /* .medium-length-hero,
   .medium-length-hero1 {
     font-size: var(--font-size-37xl);
     line-height: 126px;
-  }
+  }*/
   .heading {
     font-size: var(--heading-desktop-h4-size);
     line-height: 38px;
@@ -2141,14 +2152,14 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .medium-length-hero,
+ /* .medium-length-hero,
   .medium-length-hero1 {
     font-size: var(--font-size-16xl);
     line-height: 84px;
   }
   .logo-section {
     gap: var(--gap-xl);
-  }
+  }*/
   .heading {
     font-size: var(--font-size-5xl);
     line-height: 29px;
